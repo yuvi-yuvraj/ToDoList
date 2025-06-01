@@ -240,9 +240,6 @@ form button {
     min-width: 100px;
 }
 
-#timeSpace{
-    padding: 10px;
-}
 
 #myUnOrdList {
     display: flex;
@@ -250,7 +247,7 @@ form button {
     align-items: center;
     align-items: flex-start; 
     max-width: 1200px;
-    height: 46vh;           
+    height: 360px;           
     overflow-y: auto;         
     scrollbar-width: thin;         
     scrollbar-color: transparent transparent;  
@@ -258,6 +255,7 @@ form button {
 
 .todo-list {
     min-width: 25%;
+    overflow-y: auto;
     /* To remove the bullets of unordered list */
     list-style: none;
 }
